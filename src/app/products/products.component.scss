@@ -4,11 +4,28 @@
   }
 .card{
     min-width: 500px;
-    min-height: 500px;
-
-    
+    min-height: 400px;
+    background-color: antiquewhite;
+    border-radius: 2%;
+    padding: 2px;
+  
 }
 .card img{
     width: 400px;
     height: 400px;
+}
+.p{
+    justify-content: center !important;
+    align-items: center;
+    padding: auto;
+}
+h1{
+    justify-content: center !important;
+    align-items: center;
+    text-transform: uppercase; 
+    text-align: center;
+}
+h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }

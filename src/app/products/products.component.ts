@@ -34,7 +34,7 @@ export class ProductsComponent {
       console.log(this.sortedData);
       const beautyProducts = data.products.filter((product: Product) => product.category === 'beauty')
       const fragranceProducts = data.products.filter((product: Product) => product.category === 'fragrances')
-      const furnitureProducts = data.products.filter((product: Product) => product.category === 'funiture')
+      const furnitureProducts = data.products.filter((product: Product) => product.category === 'furniture')
       const groceriesProducts = data.products.filter((product: Product) => product.category === 'groceries')
       // console.log(beautyProducts);
       
